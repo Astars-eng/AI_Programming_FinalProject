@@ -39,8 +39,7 @@ python HW1.py
 |+ BN & Dropout (Final)	|87%	|86%	|15s|完整的深度网络，收敛极快|
 
 ```
-Epoch 50/50 | LR: 0.00012 | Loss: 0.3645 | Train Acc: 87.57% | Test Acc:
-86.19%
+Epoch 50/50 | LR: 0.00012 | Loss: 0.3645 | Train Acc: 87.57% | Test Acc:86.19%
 ```
 ![train5_result](./Task3/train5_result.png)
 > 训练集与测试集的 Loss 下降曲线（左）与 Accuracy 上升曲线（右）。可以看出，随着余弦退⽕策略的⽣效，后期准确率有明显的爬升，且 Train/Test 差距较⼩，说明 Dropout 有效抑制了过拟合。
